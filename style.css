@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(124, 83, 221);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: rgb(124, 83, 221);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-estoque .nav-link.active:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: #e0e0e0;
+}
+
+.section-title {
+    font-family: 'Kanit', sans-serif;
+}
+
+#sobre-a-loja,
+#estoque {
+    background-color: #e0e0e0;
+}
+
+.text-colored {
+    color: rgb(124, 83, 221);
+}
+
+.nav-estoque .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(124, 83, 221);
+    color: #fff;
+}
+
+.nav-estoque .nav-link:hover {
+    color: rgb(124, 83, 221);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.carousel {
+    width: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.carousel-item img {
+    height: 500px;
+    width: 100%;
+}
+
+.col-md-5 img {
+    border: 3px solid rgb(124, 83, 221);
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    .carousel {
+        width: 100%;
+    }
+}
